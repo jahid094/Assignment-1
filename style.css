@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+}
+
+.section1{
+    display: flex;
+    padding: 5%;
+}
+
+.section2{
+    padding: 5%;
+}
+
+.section3{
+    display: flex;
+    padding: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: center;
+    
+}
+
+.section4{
+    display: flex;
+    padding: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position:right bottom;
+    margin-right: 100px;
+    
+}
+
+.section5{
+    display: flex;
+    background-color: rgb(6, 14, 88);
+    color: white;
+    padding: 20px;
+
+}
+
+.half-width-left{
+    width: 40%;
+    margin-left: 5%;
+
+}
+
+.half-width-right{
+    width: 70%;
+    
+}
+
+.header-image{
+    width: 35%;
+    margin-left: 10%;
+    margin-top: -70px;
+}
+
+.FocusOnText{
+    font-size: 50px;
+    border-left: 4px solid rgb(253, 77, 77);
+    padding-left: 20px;
+    border-radius: 2px;
+
+}
+
+.mission2022Text{
+    color: rgb(245, 134, 22);
+}
+
+
+.ExploreNow{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(253, 77, 77), rgb(245, 128, 128));
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.illustrations{
+    display: flex;
+}
+
+.illustrator1{
+    width: 25%;
+    background-color: rgb(156, 202, 196);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.illustrator2{
+    width: 25%;
+    background-color: rgb(235, 207, 189);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.illustrator3{
+    width: 25%;
+    background-color: rgb(247, 240, 185);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.secondHeader{
+    font-size: 50px;
+    padding-left: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.ilustratorImage1{
+    width: 50%;
+}
+
+.ilustratorImage2{
+    width: 50%;
+}
+
+.ilustratorImage3{
+    width: 50%;
+}
+
+.textBold{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.coingImage{
+    width: 90%;
+    margin: 20px;
+}
+
+.section-3-left
+{
+    width: 30%;
+}
+
+.section-3-right
+{
+    width: 100%;
+    margin: 50px;
+}
+
+.projectImage{
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.section-4-left
+{
+    width: 60%;
+    
+}
+
+.section-4-right
+{
+    width: 40%;
+    margin-left: 100px;
+    
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.footerP{
+    text-align: center;
+}
+
+/* .section4-shape1{
+    width: 30%;
+    margin-left: -60px;
+    position: relative;
+    z-index: -1;
+} */
+
