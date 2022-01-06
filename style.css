@@ -1,130 +1,92 @@
+/* css for body */
 body{
     margin: 0;
 }
 
-.section1{
+/* section 1 css */
+.section-1{
     display: flex;
-    padding: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
-.section2{
-    padding: 5%;
-}
-
-.section3{
-    display: flex;
-    padding: 5%;
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position-y: center;
-    
-}
-
-.section4{
-    display: flex;
-    padding: 5%;
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 150px;
-    background-position:right bottom;
-    margin-right: 100px;
-    
-}
-
-.section5{
-    display: flex;
-    background-color: rgb(6, 14, 88);
-    color: white;
-    padding: 20px;
-
-}
-
-.half-width-left{
+.section-1-left{
     width: 40%;
-    margin-left: 5%;
 
 }
 
-.half-width-right{
-    width: 70%;
+.section-1-right{
+    width: 45%;
+    padding-left: 5%;
     
 }
 
-.header-image{
-    width: 35%;
-    margin-left: 10%;
-    margin-top: -70px;
-}
-
-.FocusOnText{
+.section-1-header{
     font-size: 50px;
     border-left: 4px solid rgb(253, 77, 77);
     padding-left: 20px;
-    border-radius: 2px;
+    border-radius: 1px;
+    font-family: 'Lobster', cursive;
 
 }
 
-.mission2022Text{
-    color: rgb(245, 134, 22);
+
+
+.section-1-image{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: -70px;
+    
 }
 
 
-.ExploreNow{
-    text-decoration: none;
-    background-image: linear-gradient(rgb(253, 77, 77), rgb(245, 128, 128));
-    color: white;
-    padding: 8px 20px;
-    border-radius: 5px;
-    margin-top: 100px;
-
+/* section 2 css */
+.section-2{
+    padding-left: 9%;
 }
 
-p{
-    font-size: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.illustrations{
+.section-2-div{
     display: flex;
 }
 
-.illustrator1{
-    width: 25%;
-    background-color: rgb(156, 202, 196);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.illustrator2{
-    width: 25%;
-    background-color: rgb(235, 207, 189);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.illustrator3{
-    width: 25%;
-    background-color: rgb(247, 240, 185);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 20px;
-}
-
-.secondHeader{
+.section-2-header{
     font-size: 50px;
-    padding-left: 20px;
-    border-radius: 2px;
     text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.section-2-left{
+    width: 25%;
+    height: 30%;
+    padding: 10px 20px;
+    background-color: rgb(156, 202, 196);
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.section-2-middle{
+    width: 25%;
+    height: 30%;
+    padding: 10px 20px;
+    background-color: rgb(235, 207, 189);
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.section-2-right{
+    width: 25%;
+    height: 30%;
+    padding: 10px 20px;
+    background-color: rgb(247, 240, 185);
+    margin: 1%;
+    border-radius: 20px;
 }
 
 .ilustratorImage1{
-    width: 50%;
+    width: 53%;
 }
 
 .ilustratorImage2{
@@ -135,14 +97,21 @@ p{
     width: 50%;
 }
 
-.textBold{
+.section-2-p{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.coingImage{
-    width: 90%;
-    margin: 20px;
+/* section 3 css */
+.section-3{
+    display: flex;
+    padding: 10%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: center;
+    background-position-x: 5rem;
+    
 }
 
 .section-3-left
@@ -152,43 +121,100 @@ p{
 
 .section-3-right
 {
-    width: 100%;
-    margin: 50px;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
-.projectImage{
-    width: 60%;
+.section-3-image{
+    width: 100%;
     margin: 20px;
-    margin-left: 150px;
+}
+
+
+/* section 4 css */
+.section-4{
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 162px;
+    background-position:right bottom;
+    background-position-y: 15rem;
+    margin-right: 100px;
+    
 }
 
 .section-4-left
 {
-    width: 60%;
+    margin-top: 50px;
+    width: 50%;
     
 }
 
 .section-4-right
 {
     width: 40%;
-    margin-left: 100px;
     
 }
+.section-4-image{
+    width: 70%;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+/* section 5 css */
+.section-5{
+    display: flex;
+    background-color: rgb(11, 15, 51);
+    color: white;
+
+}
+
 .footer{
     width: 100%;
     text-align: center;
     justify-content: center;
     font-size: 25px;
+    font-family: 'Lobster', cursive;
 }
 
 .footerP{
     text-align: center;
 }
 
-/* .section4-shape1{
-    width: 30%;
-    margin-left: -60px;
-    position: relative;
-    z-index: -1;
-} */
 
+.footer2022{
+    color:tomato;
+}
+
+/* css for all section */
+p{
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(253, 77, 77), rgb(224, 102, 102));
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.h1tag{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.header-span{
+    color: rgb(245, 134, 22);
+}
